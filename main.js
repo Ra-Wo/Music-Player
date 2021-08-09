@@ -7,17 +7,19 @@ const rate = document.getElementById('progress-rate');
 const previous = document.getElementById('previous');
 const next = document.getElementById('next');
 
+const url = "https://ra-wo.github.io/Music-Player/";
+
 const Musics = [{
    name: 'MAN WITH A MISSIONINTO THE DEEP',
-   src: '/Music/MAN WITH A MISSIONINTO THE DEEP/song.mp3',
+   src: `${url}/Music/MAN WITH A MISSIONINTO THE DEEP/song.mp3`,
    image: '/Music/MAN WITH A MISSIONINTO THE DEEP/image.jpg'
 }, {
    name: 'ずっと真夜中でいいのに暗く黒くMVZUTOMAYO - DARKEN',
-   src: '/Music/ずっと真夜中でいいのに暗く黒くMVZUTOMAYO - DARKEN/song.mp3',
+   src: `${url}/Music/ずっと真夜中でいいのに暗く黒くMVZUTOMAYO - DARKEN/song.mp3`,
    image: '/Music/ずっと真夜中でいいのに暗く黒くMVZUTOMAYO - DARKEN/image.jpg'
 }, {
    name: 'Chris Kläfford - Cold At The Altar',
-   src: '/Music/Chris Kläfford - Cold At The Altar/song.mp3',
+   src: `${url}/Music/Chris Kläfford - Cold At The Altar/song.mp3`,
    image: '/Music/Chris Kläfford - Cold At The Altar/image.jpeg'
 }];
 
