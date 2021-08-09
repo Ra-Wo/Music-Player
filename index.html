@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" title="CDN icon" />
+</head>
+
+<body>
+    
+    
+    <div class="background">
+        
+        <div class="card">
+           
+            <div class="nameSong">
+                
+                <div class="titleSong">
+                    <p>Name:</p>
+                    <div id="titleSong">Loading...</div>
+                </div>
+        
+                <div id="disk">
+                    <div></div>
+                </div>
+                
+            </div>
+            
+            <div class="the-Rate">
+                <p id="prog_time" class="thestart">0:00</p>
+                <div onclick="setCurrentTime(event, this)" class="ribbon">
+                    <div id="progress-rate" class="progress-rate"></div>
+                </div>
+                <p class="theend" id="TimeEnd">0:00</p>
+            </div>
+            
+            
+            <div class="theButton">
+                
+                <div id="previous" class="previous">
+                    <i class="fas fa-backward"></i>
+                </div>
+                
+                <div onclick="play()" class="play" id="play">
+                    <i class="fas fa-play"></i>
+                </div>
+                
+                <div id="next" class="Next">
+                    <i class="fas fa-forward"></i>
+                    </div>
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    
+    
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
