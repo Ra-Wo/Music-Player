@@ -12,15 +12,15 @@ const url = "https://ra-wo.github.io/Music-Player/";
 const Musics = [{
    name: 'MAN WITH A MISSIONINTO THE DEEP',
    src: `${url}/Music/MAN WITH A MISSIONINTO THE DEEP/song.mp3`,
-   image: '/Music/MAN WITH A MISSIONINTO THE DEEP/image.jpg'
+   image: `${url}/Music/MAN WITH A MISSIONINTO THE DEEP/image.jpg`
 }, {
    name: 'ずっと真夜中でいいのに暗く黒くMVZUTOMAYO - DARKEN',
    src: `${url}/Music/ずっと真夜中でいいのに暗く黒くMVZUTOMAYO - DARKEN/song.mp3`,
-   image: '/Music/ずっと真夜中でいいのに暗く黒くMVZUTOMAYO - DARKEN/image.jpg'
+   image: `${url}/Music/ずっと真夜中でいいのに暗く黒くMVZUTOMAYO - DARKEN/image.jpg`
 }, {
    name: 'Chris Kläfford - Cold At The Altar',
    src: `${url}/Music/Chris Kläfford - Cold At The Altar/song.mp3`,
-   image: '/Music/Chris Kläfford - Cold At The Altar/image.jpeg'
+   image: `${url}/Music/Chris Kläfford - Cold At The Altar/image.jpeg`
 }];
 
 var Song = 1;
